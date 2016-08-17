@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+  margin: auto;
+  width: 900px;
+  text-align: center;
+}
+
+.ttt ul {
+  list-style: none;
+  /*border: solid black 5px;*/
+  width: 350px;
+  height: 310px;
+  margin: auto;
+}
+
+.ttt ul li {
+  border: solid black 5px;
+  /*margin: 5px black;*/
+  height: 100px;
+  width: 100px;
+  float: left;
+  background-color: gray;
+  font-size: 72px;
+}
+
+.ttt ul li:hover {
+  background-color: yellow;
+}
+
+
+.x {
+  color: red;
+}
+
+.o {
+  color: blue;
+}
+
+.group:after {
+  content: "";
+  clear: both;
+  display: block;
+}
