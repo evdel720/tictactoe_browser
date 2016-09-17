@@ -14,7 +14,7 @@ function completion() {
       reader.close();
     }
   });
-};
+}
 
 let g = new Game();
 g.run(reader, completion);

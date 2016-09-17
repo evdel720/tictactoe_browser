@@ -7,7 +7,6 @@ body {
 
 .ttt ul {
   list-style: none;
-  /*border: solid black 5px;*/
   width: 350px;
   height: 310px;
   margin: auto;
@@ -15,7 +14,6 @@ body {
 
 .ttt ul li {
   border: solid black 5px;
-  /*margin: 5px black;*/
   height: 100px;
   width: 100px;
   float: left;

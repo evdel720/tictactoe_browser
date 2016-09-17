@@ -14,15 +14,13 @@ class Game {
   playMove(pos) {
     this.board.placeMark(pos, this.currentPlayer);
     this.swapTurn();
-    // console.log(pos);
-    // console.log(this.board);
   }
 
   promptMove(reader, callback) {
     const game = this;
 
     this.board.print();
-    console.log(`Current Turn: ${this.currentPlayer}`)
+    console.log(`Current Turn: ${this.currentPlayer}`);
 
     reader.question('Enter rowIdx: ', rowIdxStr => {
       const rowIdx = parseInt(rowIdxStr);
